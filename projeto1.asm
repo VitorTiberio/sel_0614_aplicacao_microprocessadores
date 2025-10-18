@@ -19,7 +19,7 @@
             ORG     001Bh               ; Timer1
             LJMP    T1_ISR
 
-; --- Tabela 7-seg (ativo-baixo, comum ânodo) ---
+; --- Tabela 7-seg (ativo-baixo, ânodo comum) ---
 TAB7:       DB  0C0h,0F9h,0A4h,0B0h,099h,092h,082h,0F8h,080h,090h
 
 ; -------------------- Código principal ----------------------------
